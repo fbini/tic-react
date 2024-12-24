@@ -1,9 +1,18 @@
+import { Cabecalho, Conteudo, Rodape } from './componentes';
+
 import './App.css';
 
 const App = () => {
   return (
-    <h1>Hello World</h1>
+    <>
+      <Cabecalho nomeUsuario="Joana" />
+      <Conteudo>
+        <h1>Titulo</h1>
+        <p>Texto Texto Texto</p>
+      </Conteudo>
+      <Rodape criador="Bini " />
+    </>
   )
 };
 
-export default App;
+export { App };
