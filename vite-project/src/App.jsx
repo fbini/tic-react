@@ -1,17 +1,14 @@
-import { Cabecalho, Conteudo, Rodape } from './componentes';
-import { Inicial } from './pages';
 
 import './App.css';
 
+import { BrowserRouter } from 'react-router-dom';
+import { Router } from './Router';
+
 const App = () => {
   return (
-    <>
-      <Cabecalho nomeUsuario="Joana" />
-      <Conteudo>
-          <Inicial />
-      </Conteudo>
-      <Rodape criador="Bini " />
-    </>
+    <BrowserRouter>
+      <Router />
+    </BrowserRouter>
   )
 };
 
