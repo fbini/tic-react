@@ -7,12 +7,20 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "server": "json-server -w db.json -p 3333 -d 1000"
   },
   "dependencies": {
+    "-": "^0.0.1",
+    "axios": "^1.7.9",
+    "json": "^2.0.0",
+    "json-server": "^3.0.0",
+    "json-server": "^1.0.0-beta.3",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "react-router-dom": "^7.1.1"
+    "react-router-dom": "^7.1.1",
+    "save": "^2.9.0",
+    "server": "^1.0.41"
   },
   "devDependencies": {
     "@eslint/js": "^9.17.0",
